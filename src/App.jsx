@@ -3,6 +3,7 @@ import { useState } from "react";
 export default function App() {
   return (
     <div className="App">
+      <Header />
       <FlashCards />
     </div>
   );
@@ -41,6 +42,10 @@ const questions = [
     answer: "Controlled element",
   },
 ];
+
+function Header() {
+  return <h1 className="header">Click to see answers!!</h1>;
+}
 
 function FlashCards() {
   const [selectedId, setSelectedId] = useState(null);

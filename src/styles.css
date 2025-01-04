@@ -6,7 +6,12 @@ body {
   font-family: sans-serif;
   padding: 20px;
 }
-
+.header {
+  text-align: center;
+  color: red;
+  font-style: italic;
+  font-size: 3rem;
+}
 .flashcards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

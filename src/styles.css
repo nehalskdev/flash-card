@@ -5,10 +5,11 @@
 body {
   font-family: sans-serif;
   padding: 20px;
+  background-color: antiquewhite;
 }
 .header {
   text-align: center;
-  color: red;
+  color: rgb(173, 44, 44);
   font-style: italic;
   font-size: 3rem;
 }
@@ -19,7 +20,7 @@ body {
 }
 
 .flashcards div {
-  border: 1px solid #e7e7e7;
+  border: 1px solid #c79292;
   background-color: #f7f7f7;
   border-radius: 7px;
   aspect-ratio: 2 / 1;
